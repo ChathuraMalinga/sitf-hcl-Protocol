@@ -1,76 +1,81 @@
-# 🤝 Contributing to SITF-HCL: The Human Capital Ledger Protocol
+# 🤝 CONTRIBUTING.md: The SITF-HCL Protocol Contribution Guide
 
-Thank you for your interest in contributing to the **Social Impact Tokenization Framework - Human Capital Ledger (SITF-HCL)**!
+Thank you for your interest in contributing to the **Social Impact Tokenization Framework - Human Capital Ledger (SITF-HCL)**. Your work here defines the global standard for verifiable human capital.
 
-This project is more than just code; it's a global standard for verifiable social impact. Your contribution will directly advance ethical technology, decent work (SDG 8), and transparency.
+## 1. Governance, Licensing, and Ethics
 
-## 1. Governance and Code of Conduct
+All contributions must adhere to the following principles to maintain the project's integrity, legal standing, and ethical focus (SDG 8 & 5).
 
-Before submitting any contribution, please review these documents:
-
-* **[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md):** We are committed to fostering an open and welcoming environment. All contributors must adhere to this Code of Conduct.
-* **[LICENSE](LICENSE):** All contributions are made under the **MIT License**. By contributing, you agree that your work will be licensed under these terms.
-
----
-
-## 2. 🚨 Protecting the Core Business: Boundaries and Scope
-
-The SITF-HCL is the **open-source trust protocol** that supports our commercial AI platform, Vetted. To maintain the project's sustainability and fund further development, we must strictly define the scope of contributions.
-
-| Focus Area | Status | Guidance |
+| Document | Purpose | Requirement |
 | :--- | :--- | :--- |
-| **SITF-HCL Protocol** | **OPEN** | Contributions must focus on the DLT protocol: Hashing, Verification (MAP), Data Schemas, and Interoperability tools. |
-| **Proprietary Vetted AI** | **CLOSED** | **WE DO NOT ACCEPT** contributions that build, replicate, or require highly proprietary code related to **predictive Machine Learning, AI Turnover Risk Scoring, or internal candidate filtering logic.** |
-| **Data Submission** | **CLOSED** | **NEVER** submit actual private data (names, salaries, sensitive personal details) in pull requests or issues. Use only synthetic or anonymized public data. |
-
-**Your primary focus must be on improving the *trust* and *efficiency* of the verification process, not the *prediction* process.**
+| **[LICENSE]** | **Legal Foundation** | All contributions are made under the permissive **MIT License**. This enables mass adoption and commercial use globally. By contributing, you agree that your work will be licensed under these terms. |
+| **[CODE_OF_CONDUCT.md]** | **Community Ethics** | We are committed to fostering an open, welcoming, and inclusive environment. All contributors **must** adhere to this Code of Conduct. |
+| **Security Policy** | **Protocol Safety** | All security vulnerabilities must be reported privately via the designated channel (to be announced) before being disclosed publicly. |
 
 ---
 
-## 3. How to Contribute
+## 2. 🛡️ Strategic Firewall: AI vs. DLT Boundaries
 
-We welcome all skill sets, technical and non-technical.
+To ensure the long-term sustainability of the SITF-HCL Protocol (open-source) and its proprietary engine (Vetted AI), we enforce a strict boundary on the scope of contributions.
 
-### A. Technical Contributions (Code)
+| Focus Area | Contribution Focus | Status | Rationale |
+| :--- | :--- | :--- | :--- |
+| **SITF-HCL Protocol** | **DLT Security, Efficiency, & Standards** (Hashing, MAP Consensus, Schemas, Interoperability, SDKs). | ✅ **ACCEPTED** | This is the public, verifiable standard we aim to establish globally. |
+| **Proprietary Vetted AI** | **Predictive Analytics & Core IP** (Turnover Risk Scoring, ML models, internal candidate filtering). | ❌ **STRICTLY REJECTED** | This is the competitive advantage and revenue stream that funds the open-source protocol. |
 
-1.  **Find an Issue:** Check the **Issues** tab for tasks labeled `good first issue` (for new contributors) or `high priority` (for experts).
-2.  **Discuss First:** For major features or changes (e.g., refactoring the MAP consensus logic), **always open an issue first** to discuss the proposed change before writing code.
-3.  **Fork and Branch:**
-    * Fork the `fairdigit/sitf-hcl-ledger-protocol` repository.
-    * Create a branch named after the feature or issue number (e.g., `feat/add-nodejs-client` or `fix/issue-10`).
-4.  **Testing:** All code submissions **must** include relevant unit tests demonstrating the functionality works and that coverage is maintained.
-5.  **Pull Request (PR):** Target your PR to the `main` branch. Provide a clear title and description of the changes.
+**Rule:** Contributions must enhance the **trust** and **verification** layer, not the **prediction** layer.
 
-### B. Non-Technical Contributions (Writing, Research, Advocacy)
+---
 
-Your expertise outside of coding is essential for making this a global standard.
+## 3. 📊 The Kaggle Ecosystem: Fueling Future AI
 
-| Contribution Type | Examples | Strategic Impact |
+We leverage the Kaggle ecosystem to its fullest potential to build a mathematically sound foundation for future AI integration, utilizing all available features.
+
+| Kaggle Option | SITF-HCL Implementation & Goal | Contribution Pathway |
 | :--- | :--- | :--- |
-| **Documentation & Education** | Writing clear API tutorials, creating simplified "how-to-use" guides for the `docs.fairdigit.org` subdomain, and enhancing the README. | Lowers the barrier to entry for NGOs and corporations, accelerating adoption. |
-| **SDG Mapping Research** | Localizing the **Skill-to-SDG Mapping** for your region (e.g., mapping vocational codes in Vietnam or Ghana to specific SDG 8 targets). | Increases the protocol's global relevance and utility for impact investors. |
-| **Community & Advocacy** | Translating key files (README, schemas) into major world languages, creating tutorial videos, or promoting the project on technical forums. | Builds a resilient, global community and enhances the personal brand of the founder. |
+| **Competitions** | **Trust Score Optimization Challenge:** Focuses on reducing latency and improving tamper-detection in the Micro-Audit Protocol (MAP). | **High-Value Code Submissions:** Directly address the goal: *Improve the efficiency and security of the core DLT mechanism.* |
+| **Datasets** | Publishing **Synthetic Ledger Data** (matching CPV schema) and **External Human Capital Data** (anonymized, public) for benchmarking. | **Data Scientists:** Use these datasets to test the *predictive potential* of the CPV schema, proving its value to the AI community. |
+| **Models & Code Collections** | We encourage contributors to share and fork **Exploratory Data Analysis (EDA) Notebooks** and **Benchmark Models** (Kaggle Models). | **Community Research:** Demonstrate that the data structure generated by the protocol is high-fidelity and machine-readable for future AI-backed services. |
 
 ---
 
-## 4. 🚀 The Kaggle Challenge & Optimization
+## 4. ⚙️ Technical Contribution Workflow (Code)
 
-The **SITF-HCL Trust Score Optimization Challenge** is our primary platform for attracting expert contributions on security and efficiency.
+For developers contributing code, adherence to this workflow is mandatory:
 
-* **Goal:** We need to find the most efficient and secure way to run the **Micro-Audit Protocol (MAP)**.
-* **How to Join:** Visit the Kaggle competition page, download the synthetic ledger data, and submit your optimized model weights.
+### A. Setup and Initialization
 
-[**LINK TO KAGGLE COMPETITION**](https://www.kaggle.com/c/sitf-hcl-trust-optimization) *(placeholder link)*
+1.  **Fork the Repository:** Create your own fork of the official repository: `https://github.com/ChathuraMalinga/sitf-hcl-Protocol.git`.
+2.  **Issue First (Mandatory):** For any significant change, feature, or bug fix, **always open a GitHub Issue first** to discuss the proposed change and receive initial feedback or assignment.
+3.  **Branching:** Create a descriptive branch for your work (e.g., `feat/map-latency-fix` or `fix/issue-10-auth`).
 
-Winning this challenge is the highest non-code contribution you can make to the project's security and efficiency.
+### B. Development and Testing
+
+* **Testing Requirement:** All code submissions **MUST** include relevant unit tests that demonstrate the functionality works as intended and maintain high code coverage.
+* **Documentation:** Update the internal code comments and any relevant section of the API reference documentation (e.g., for new parameters or logic flows).
+
+### C. Submission (Pull Request - PR)
+
+1.  **PR Title:** Use a clear, conventional prefix (e.g., `feat:`, `fix:`, `docs:`) followed by a concise description.
+2.  **Target:** PRs must target the **`main`** branch.
+3.  **Description:** Clearly detail:
+    * What problem does this PR solve?
+    * How did you test it?
+    * (Optional but Recommended) If applicable, link to a **Kaggle Notebook** that proves the efficiency gain.
 
 ---
 
-## 5. 📧 Contact and Support
+## 5. 📚 Non-Technical Contributions (Writers, Researchers, Translators)
 
-If you have questions about the scope, the DLT methodology, or the commercial/ethical boundaries, please reach out:
+Your expertise is crucial for protocol adoption and community growth.
 
-* **GitHub Issues:** For technical problems with the code.
-* **GitHub Discussions:** For general concepts, ideas, or networking.
+* **Documentation:** Enhance the clarity of the **[API Reference Documentation]** and create educational tutorials for new integrators.
+* **Localization:** Translate key files (README, Schemas, Documentation) to drive adoption in non-English speaking markets.
+* **SDG Mapping Research:** Conduct research to expand the **Skill-to-SDG Mapping Taxonomy** to cover new industries or regional vocational standards.
 
-We look forward to building the future of verifiable impact with you!
+---
+
+## 6. 📞 Community and Support Channels
+
+* **GitHub Issues:** For reporting bugs, security concerns, and defining feature requests. **This is the primary channel for technical problems.**
+* **GitHub Discussions:** For general questions, community networking, brainstorming, and proposing changes to the project's long-term roadmap. **Use this for conceptual questions or non-technical support.**
