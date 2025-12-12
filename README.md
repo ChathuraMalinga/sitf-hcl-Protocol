@@ -1,10 +1,10 @@
 # 🌟 SITF-HCL Protocol: The Social Impact Tokenization Framework - Human Capital Ledger
 
-![GitHub Repo Size](https://img.shields.io/github/repo-size/ChathuraMalinga/sitf-hcl-Protocol.git?style=for-the-badge)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/ChathuraMalinga/sitf-hcl-Protocol.git?style=for-the-badge)
-![GitHub Contributors](https://img.shields.io/github/contributors/ChathuraMalinga/sitf-hcl-Protocol.git?style=for-the-badge)
-![GitHub Open Issues](https://img.shields.io/github/issues/ChathuraMalinga/sitf-hcl-Protocol.git?style=for-the-badge)
-![License](https://img.shields.io/github/license/ChathuraMalinga/sitf-hcl-Protocol.git?style=for-the-badge)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/ChathuraMalinga/sitf-hcl-Protocol?style=for-the-badge)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/ChathuraMalinga/sitf-hcl-Protocol?style=for-the-badge)
+![GitHub Contributors](https://img.shields.io/github/contributors/ChathuraMalinga/sitf-hcl-Protocol?style=for-the-badge)
+![GitHub Open Issues](https://img.shields.io/github/issues/ChathuraMalinga/sitf-hcl-Protocol?style=for-the-badge)
+![License](https://img.shields.io/github/license/ChathuraMalinga/sitf-hcl-Protocol?style=for-the-badge)
 
 ---
 
