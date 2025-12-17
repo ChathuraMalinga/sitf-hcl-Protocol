@@ -116,7 +116,6 @@ The SITF-HCL Protocol is backed by a cloud-integrated AI engine hosted on Kaggle
 | **Ledger Volume** | 5,000+ Verified Vouchers |
 
 
-$T_i$ (Trust Index): $T_i = B + (\frac{D}{365} \times W_t) + (M \times W_m) + (I \times 100)$, where $B$ is baseline, $D$ is tenure days, $M$ is milestone weight, and $I$ is issuer impact.Risk Threshold: $R < 68$. Any entity falling below this threshold is flagged for "Retention Intervention."Data Schema v1.1: Added hcl_trust_index and is_at_risk as synthetic feature labels for ML training.
 ---
 
 ## V. Community Hub and Links
