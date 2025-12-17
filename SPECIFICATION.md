@@ -25,7 +25,14 @@ The protocol operates through a decentralized "Voucher" system.
 * **Processing Layer:** Application of the proprietary SITF weighting engine.
 * **Output Layer:** A singular, auditable 'Trust Index' score stored as a cryptographically signed entry.
 
-## 4. Usage & Legal Notice
+## 4. Trade Secret Protection
+Specific algorithmic constants, weight distribution variables, and the 'Master Salt' 
+generation methodology are classified as **Trade Secrets** of Fairdigit. 
+Access to the 'Full Specification' (including algebraic variables) is restricted 
+to authorized partners under Non-Disclosure Agreements (NDA).
+
+
+## 5. Usage & Legal Notice
 The logic, system architecture, and specific integration of "Vetted AI" with the Human Capital Ledger are the exclusive property of Chathura Malinga under Fairdigit. Any reproduction, reverse engineering, or unauthorized implementation of this protocol logic is strictly prohibited. 
 
 This document serves as formal evidence of **Prior Art** as of December 2025.
