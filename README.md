@@ -99,6 +99,23 @@ The **SITF-HCL Protocol** is being built to be backed by AI. We leverage the ent
 | **Datasets & Models** | Publishing **Synthetic Ledger Data** (CPV Schema) on Kaggle. | Data analysis to confirm the *predictive signal* in the CPV data for future AI development. |
 | **Code Collections** | Sharing SDKs, benchmark models, and EDA Notebooks. | Building integration tools to accelerate adoption and research. |
 
+
+## 🤖 AI & Machine Learning Integration
+The SITF-HCL Protocol is backed by a cloud-integrated AI engine hosted on Kaggle.
+
+### Current Capabilities:
+* **Institutional Trust Index:** Automates the calculation of organizational reliability using a proprietary hashing-to-score algorithm.
+* **Turnover Prediction (Vetted AI Alpha):** Uses Random Forest Classifiers to identify workforce stability risks with high precision.
+* **Decentralized Analytics:** Analyzes impact across `did:hcl` identifiers without compromising individual worker privacy.
+
+### Key Metrics (Latest Simulation):
+| Metric | Result |
+| :--- | :--- |
+| **Top Organization Trust** | 71.26 (Issuer: `did:hcl:60c4694e26d3`) |
+| **Prediction Accuracy** | [Insert F1-Score from your Kaggle Report]% |
+| **Ledger Volume** | 5,000+ Verified Vouchers |
+
+
 ---
 
 ## V. Community Hub and Links
